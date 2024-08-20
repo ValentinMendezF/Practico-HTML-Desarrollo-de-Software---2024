@@ -6,17 +6,17 @@ A continuación se detallan los pasos y las actividades que deben llevar a cabo:
 4.1 Estructura Básica del Documento HTML
 Descripción:
 Inicia con la creación de un archivo HTML que contenga la estructura mínima requerida para cualquier documento web. Esto incluye:
-●	Declaración de DOCTYPE para especificar la versión de HTML.
-●	Uso del elemento <html> con un atributo lang para especificar el idioma del contenido.
-●	Inclusión de la etiqueta <head> para agregar metadatos, como charset, viewport, y el <title>.
-●	La etiqueta <body> que contendrá todo el contenido visible de la página.
+. Declaración de DOCTYPE para especificar la versión de HTML.
+.	Uso del elemento <html> con un atributo lang para especificar el idioma del contenido.
+.	Inclusión de la etiqueta <head> para agregar metadatos, como charset, viewport, y el <title>.
+.	La etiqueta <body> que contendrá todo el contenido visible de la página.
 
 4.2 Encabezados y Propiedades del Texto
 Descripción:
 Utiliza diferentes niveles de encabezados para organizar el contenido en secciones. Experimenta con propiedades de texto como negrita, cursiva y subrayado para destacar ciertas partes del texto.
 Requisitos:
-●	Usar al menos un encabezado de cada nivel (<h1> a <h6>).
-●	Aplicar estilos de texto directamente en el HTML usando atributos style 
+.	Usar al menos un encabezado de cada nivel (<h1> a <h6>).
+.	Aplicar estilos de texto directamente en el HTML usando atributos style 
 
 4.3 Divisiones y Agrupación de Contenido
 Descripción:
