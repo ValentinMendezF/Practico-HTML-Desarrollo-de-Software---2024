@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página</title>
+    <style>
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+
+        .lista-links {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: aliceblue;
+            border-radius: 7px;
+            color: black;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .texto-negrita {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .texto-cursiva {
+            font-size: 16px;
+            font-style: oblique;
+        }
+
+        .texto-subrayado {
+            font-size: 16px;
+            text-decoration: underline;
+        }
+
+        .texto-resaltado {
+            font-size: 16px;
+            background-color: khaki;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+        footer{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <Header id="header">
+        <h1>1. Estructura Básica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos
+            y un título.</p>
+        <nav>
+            <ul class="lista-links">
+                <li><a href="https://www.google.com/?hl=es" target="_blank">Ir a Google</a></li>
+                <li><a href="#multimedia">Ir a Multimedia</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <section>
+            <h2>2.Encabezado y Propiedades del Texto</h2>
+            <h3>Etiqueta h3</h3>
+            <h4>Etiqueta h4</h4>
+            <h5>Etiqueta h5</h5>
+            <h6>Etiqueta h6</h6>
+            <p class="texto-negrita">Texto en negrita.</p>
+            <p class="texto-cursiva">Texto en cursiva.</p>
+            <p class="texto-subrayado">Texto subrayado.</p>
+            <p class="texto-resaltado">Texto resaltado.</p>
+            <p class="texto-negrita texto-cursiva texto-subrayado texto-resaltado">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Labore repellat illum et neque aut exercitationem dolorem deserunt
+                laboriosam nam repellendus facilis quae alias, quam expedita reiciendis dolore inventore sapiente totam.
+            </p>
+        </section>
+        <section>
+            <h2>3.Divisiones y Agrupación de Contenido</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primer sección agrupada en un div.</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+        </section>
+        <section>
+            <h2>4.Enlaces y Listas</h2>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Primer item de la lista desordenada</li>
+                <li>Segundo item de la lista desordenada</li>
+                <li>Tercer item de la lista desordenada</li>
+            </ul>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Primer item de la lista ordenada</li>
+                <li>Segundo item de la lista ordenada</li>
+                <li>Tercer item de la lista ordenada</li>
+            </ol>
+        </section>
+        <section id="multimedia">
+            <h2>5.Elementos Multimedia</h2>
+            <h3>Imágen</h3>
+            <img src="imagenes/pexels-nico-marin-703142244-26045363.jpg" alt="Pingüinos">
+            <h3>Video de Youtube</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IvBI8MAEkfU?si=KP9mHuRZi9Rs3N5F"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Video</h3>
+            <video
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                controls></video>
+            <h3>Audio</h3>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </section>
+        <section>
+            <h2>6.Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titulo 1</th>
+                        <th>Titulo 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="formulario">
+            <h2>7.Formulario</h2>
+            <form action="">
+                <label for="">Nombre:</label>
+                <input type="text" placeholder="Ingrese su Nombre">
+                <label for="">E-mail:</label>
+                <input type="email" name="" id="" placeholder="Ingrese su E-mail">
+                <label for="">Contraseña:</label>
+                <input type="password" name="" id="" placeholder="Ingrese su contraseña">
+                <label for="">Mensaje:</label>
+                <textarea name="" id="" placeholder="Deje su Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam odio, sit excepturi totam eos necessitatibus ad esse vero blanditiis facilis. Suscipit cum cumque, maxime repellendus assumenda reprehenderit obcaecati quo perspiciatis?</p>
+        <a href="#header">Ir a Header</a>
+    </footer>
+</body>
+
+</html>
